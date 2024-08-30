@@ -1,14 +1,6 @@
 "use client";
-
-import { AppBar, Box, Button, IconButton, Menu, MenuItem, Toolbar, Typography } from '@mui/material'
-
-import Container from '@mui/material/Container';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 import React, { useState } from 'react'
-
-
-const pages = ['Home', 'Reports'];
 
 const Navbar = () => {
 
